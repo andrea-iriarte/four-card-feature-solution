@@ -1,6 +1,6 @@
 import { card, cardData } from "../constants"
 import { motion } from "framer-motion"
-import { useWindowSize } from "@uidotdev/usehooks"
+/* import { useWindowSize } from "@uidotdev/usehooks" */
 
 const Card = ({ title, subtitle, icon, color}: card) => {
 
