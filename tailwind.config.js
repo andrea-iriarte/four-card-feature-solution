@@ -18,6 +18,10 @@ export default {
       },
       boxShadow: {
         'xl': '0 5px 10px rgba(84, 158, 242, 0.25)'
+      },
+
+      screens: {
+        'lg': "900px"
       }
     },
     

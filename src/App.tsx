@@ -6,7 +6,7 @@ import CardBody from './components/CardBody'
 
 function App() {
   return (
-    <div className='flex flex-col w-[100vw] bg-light-gray h-[100vh] py-[3.5rem] px-[8rem] font-poppins'>
+    <div className='flex flex-col w-[100vw] lg:h-[100vh] bg-light-gray  pt-[3.5rem] lg:pb-[3.5rem] pb-[5rem] ]px-[8rem] font-poppins overflow-y-scroll overflow-x-hidden scrollbar-hide'>
       <Header />
       <CardBody />
     </div>
