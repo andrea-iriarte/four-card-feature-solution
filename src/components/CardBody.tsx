@@ -6,7 +6,7 @@ const Card = ({ title, subtitle, icon, color}: card) => {
 
   /* const desktop = useWindowSize().width >= 900; */
   return (
-    <div className={`border-primary-red} border-t-[4px] lg:w-[19rem] w-[15rem] lg:h-[13rem] h-[11rem] shadow-xl bg-white rounded-md p-[1.5rem] text-dark-blue flex flex-col gap-[1rem] my-[0]`}>
+    <div className={`border-primary-red ${color} border-t-[4px] lg:w-[19rem] w-[15rem] lg:h-[13rem] h-[11rem] shadow-xl bg-white rounded-md p-[1.5rem] text-dark-blue flex flex-col gap-[1rem] my-[0]`}>
       <div className="h-[80%]">
         <h1 className="font-semibold mb-[0.25rem]">{title}</h1>
         <p className="leading-4 text-[.7rem] lg:text-[.75rem] font-extralight ">{subtitle}</p>
